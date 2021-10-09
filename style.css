@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #eeeeee;
+  color: #111111;
+  overflow-x: hidden;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  background-color: #eeeeee;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  box-shadow: 0 5px 15px 0 #11111133;
+  z-index: 1000;
+}
+
+.openButton {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 1rem;
+}
+
+.nav-links {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  background-color: #111111;
+  transform: translateX(100%);
+  transition: transform 0.5s;
+}
+
+.closeButton {
+  position: absolute;
+  font-size: 2rem;
+  right: 0;
+  padding: 10px 20px;
+  color: #eeeeee;
+  cursor: pointer;
+}
+
+.nav-links ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links a {
+  /* background-color: aqua; */
+  text-decoration: none;
+  color: #eeeeee;
+  font-size: 1.4rem;
+  font-weight: 600;
+  padding: 30px;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgBox {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #111111;
+  padding: 5px;
+  transform: scale(70%);
+}
+
+.imgBox img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.textBox {
+  text-align: center;
+}
+
+.textBox h1 {
+  font-size: 3rem;
+}
+
+.projects {
+  min-height: 100vh;
+  background-color: #111111;
+  color: #eeeeee;
+}
+
+.projects .tittle {
+  width: 100%;
+  text-align: center;
+  padding: 70px 0 20px;
+  font-size: 2.4rem;
+}

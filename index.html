@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <h1><span><</span>helloWorld<span>/></span></h1>
+      </div>
+      <div class="openButton" onclick="openButton()">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="nav-links">
+        <div class="closeButton" onclick="closeButton()">
+          <i class="fas fa-times"></i>
+        </div>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero" id="about">
+      <div class="textBox">
+        <h1>Fahrul Firdaus</h1>
+        <h2>Just Started Coding</h2>
+      </div>
+      <div class="imgBox">
+        <img src="img/hero.png" alt="" />
+      </div>
+    </div>
+
+    <div class="projects" id="projects">
+      <h1 class="tittle">Projects</h1>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
